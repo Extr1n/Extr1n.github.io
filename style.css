@@ -83,3 +83,24 @@ footer{
   justify-content: center;
   background: #e6e6e6;
 }
+
+@media only screen and (max-width: 450px){
+  .row__html, .row__js{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row__js{
+    flex-direction: column-reverse;
+  }
+  
+  .description, .assignments{
+  display: block;
+    margin: auto;
+  }
+  
+  .description{
+    text-align: center;
+    max-width: 300px;
+  }
+}
