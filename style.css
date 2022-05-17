@@ -46,6 +46,11 @@ ion-icon{
   justify-content: space-between;
 }
 
+img{
+  width: 300px;
+  border-radius: 50%;
+}
+
 .description, .assignments{
   flex: 1;
 }
