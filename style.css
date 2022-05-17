@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -13,5 +14,55 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+
+}
+
+banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-block: 2rem;
+}
+
+ion-icon{
+  font-size: 2rem;
+  opacity: .5;
+}
+
+.main{
+  max-widtH: 750px;
+  display: block;
+  margin: auto;
+}
+
+.row__html, .row__js{
+  display: flex;
+  align-items: center;
+  padding-block: 2rem;
+}
+
+.description, .assignments{
+  flex: 1;
+}
+
+.assignments{
+  display: flex;
+  justify-content: center;
+}
+
+.assignments ul{
+  background: #e6e6e6;
+  width: 350px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.assignments a{
+  text-decoration: none;
+  color: black;
 }
